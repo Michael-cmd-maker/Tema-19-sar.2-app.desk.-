@@ -28,3 +28,14 @@ switch (operatie)
     case "-":
         Console.WriteLine($"Rezultat: {a - b}");
         break;
+
+    case "*":
+        Console.WriteLine($"Rezultat: {a * b}");
+        break;
+
+    case "/":
+        if (b == 0)
+            Console.WriteLine("Eroare: impartirea la zero!");
+        else
+            Console.WriteLine($"Rezultat: {a / b}");
+        break;
