@@ -39,3 +39,8 @@ switch (operatie)
         else
             Console.WriteLine($"Rezultat: {a / b}");
         break;
+
+    default:
+        Console.WriteLine("Operatie invalida!");
+        break;
+}
